@@ -1,9 +1,10 @@
 import React from 'react'
+import './Navbar.css'
 
 const Navbar = () => {
 	return (
 		<nav className='h-wrapper'>
-			<div className='flexCenter paddings innerWdith h-container'>
+			<div className='flexCenter paddings innerWidth h-container'>
 				<img src='./logocrop_resize.png' alt='logo' width={100} />
 
 				<div className='flexCenter h-menu'>
@@ -13,8 +14,6 @@ const Navbar = () => {
 					<a href=''>Tobacco 🍂</a>
                     <button className='button'>
 						<a href=''>Contact</a>
-                        Continuar amanhã
-                        fazer juntamente com os 2 abertos ao mesmo tempo;
 					</button>
 				</div>
 			</div>
